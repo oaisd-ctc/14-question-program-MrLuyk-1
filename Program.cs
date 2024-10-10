@@ -4,6 +4,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        
+        
+        
         Console.WriteLine("What is your Name?");
         string?  name = Console.ReadLine();
 
@@ -47,14 +50,31 @@ public class Program
         int sibling = int.Parse(siblings);
         if (sibling >= 2){
             Console.WriteLine("My friend's name is " + name + ". " + name + " is " + age + " years old. " + name + 
-                            "'s eye colour is " + ecolour + ". " + name + "" + name + " will be " + agePlusFive + 
-                            " in five years. " + name + " has siblings");
+                            "'s eye colour is " + ecolour + ". " + name + "'s hair colour is " + hcolour + ". " + name +
+                            " might have been to a Turkish prison. " + name + "'s favorite color is " + fcolour + ". " + name +
+                            "'s favorite watchable thing is " + tvmovie + ". " + name + " does not know the airspeed velosity of an unladen swallow. "
+                             + name + "'s favorite class is " + fclass + ". " + name + "'s favorite holiday is boxing day." + name +
+                             "'s favorite season is " + fseason + ". " + name + "'s dream job is " + job + ". " + name + 
+                            " will be " + (agePlusFive + 5) + " in five years. " + name + " has siblings");
+
         }
         else if (sibling == 1){
-
+            Console.WriteLine("My friend's name is " + name + ". " + name + " is " + age + " years old. " + name + 
+                            "'s eye colour is " + ecolour + ". " + name + "'s hair colour is " + hcolour + ". " + name +
+                            " might have been to a Turkish prison. " + name + "'s favorite color is " + fcolour + ". " + name +
+                            "'s favorite watchable thing is " + tvmovie + ". " + name + " does not know the airspeed velosity of an unladen swallow. "
+                             + name + "'s favorite class is " + fclass + ". " + name + "'s favorite holiday is boxing day." + name +
+                             "'s favorite season is " + fseason + ". " + name + "'s dream job is " + job + ". " + name + 
+                            " will be " + (agePlusFive + 5) + " in five years. " + name + " has one sibling");
         }
         else {
-
+            Console.WriteLine("My friend's name is " + name + ". " + name + " is " + age + " years old. " + name + 
+                            "'s eye colour is " + ecolour + ". " + name + "'s hair colour is " + hcolour + ". " + name +
+                            " might have been to a Turkish prison. " + name + "'s favorite color is " + fcolour + ". " + name +
+                            "'s favorite watchable thing is " + tvmovie + ". " + name + " does not know the airspeed velosity of an unladen swallow. "
+                             + name + "'s favorite class is " + fclass + ". " + name + "'s favorite holiday is boxing day." + name +
+                             "'s favorite season is " + fseason + ". " + name + "'s dream job is " + job + ". " + name + 
+                            " will be " + (agePlusFive + 5) + " in five years. " + name + " has no siblings");
         }
     }
 }
